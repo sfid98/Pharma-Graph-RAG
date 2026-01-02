@@ -1,0 +1,104 @@
+{
+  "farmaco": {
+    "nome": "Tachipirina_supposta",
+    "forme_farmaceutiche": [
+    "Supposte Prima Infanzia 125 mg [cite: 5155]",
+    "Supposte Bambini 250 mg [cite: 5156]",
+    "Supposte Bambini 500 mg [cite: 5156]",
+    "Supposte Adulti 1000 mg [cite: 5156]"
+    ],
+    "principio_attivo": "Paracetamolo [cite: 5157]",
+    "altri_principi": [],
+    "gruppo_terapeutico": "Analgesico-antipiretico [cite: 5158]"
+  },
+  "grafo_strutturato": {
+    "indicazioni_terapeutiche": [
+      "Affezioni febbrili (influenza, malattie esantematiche, affezioni acute del tratto respiratorio) [cite: 5160]",
+      "Cefalee [cite: 5161]",
+      "Nevralgie [cite: 5161]",
+      "Mialgie [cite: 5161]",
+      "Manifestazioni dolorose di media entità di varia origine [cite: 5161]"
+    ],
+    "controindicazioni_assolute": [
+      {
+        "condizione": "Ipersensibilità al paracetamolo o agli eccipienti",
+        "motivo": "Allergia [cite: 5163]"
+      },
+      {
+        "condizione": "Grave anemia emolitica",
+        "motivo": "Controindicazione specifica [cite: 5164]"
+      },
+      {
+        "condizione": "Grave insufficienza epatocellulare",
+        "motivo": "Controindicazione specifica [cite: 5164]"
+      }
+    ],
+    "avvertenze_precauzioni": [
+      "Carenza di glucosio-6-fosfato deidrogenasi [cite: 5167]",
+      "Insufficienza renale od epatica di grado lieve/moderato [cite: 5168]",
+      "Sindrome di Gilbert [cite: 5168]",
+      "Etilismo [cite: 5179]",
+      "Non somministrare per oltre 3 giorni consecutivi senza consultare il medico [cite: 5171]"
+    ],
+    "interazioni_farmacologiche": [
+      {
+        "sostanza": "Cloramfenicolo",
+        "effetto": "Aumento dell'emivita e rischio tossicità del cloramfenicolo",
+        "gravità": "MODERATA [cite: 5174]"
+      },
+      {
+        "sostanza": "Anticoagulanti orali",
+        "effetto": "Leggere variazioni nei valori di INR (con uso prolungato 4g/die per 4gg)",
+        "gravità": "MODERATA [cite: 5175]"
+      },
+      {
+        "sostanza": "Farmaci induttori delle monossigenasi epatiche (Rifampicina, Cimetidina, Antiepilettici: Glutetimide, Fenobarbital, Carbamazepina)",
+        "effetto": "Interazione con il metabolismo epatico",
+        "gravità": "ALTA (usare con estrema cautela) [cite: 5177, 5178]"
+      },
+      {
+        "sostanza": "Zidovudina",
+        "effetto": "Richiede cautela nell'uso concomitante",
+        "gravità": "MODERATA [cite: 5179]"
+      }
+    ],
+    "effetti_indesiderati": [
+      "Reazioni cutanee gravi (Eritema multiforme, Sindrome di Stevens Johnson, Necrolisi epidermica) [cite: 5218]",
+      "Reazioni di ipersensibilità (Rash, Orticaria, Angioedema, Edema della laringe, Shock anafilattico) [cite: 5219]",
+      "Trombocitopenia, Leucopenia, Anemia, Agranulocitosi [cite: 5220]",
+      "Alterazioni della funzionalità epatica ed epatiti [cite: 5220]",
+      "Alterazioni a carico del rene (Insufficienza renale acuta, Nefrite interstiziale, Ematuria, Anuria) [cite: 5220, 5221]",
+      "Reazioni gastrointestinali [cite: 5221]",
+      "Vertigini [cite: 5221]"
+    ],
+    "eccipienti_rilevanti": [
+      {
+        "nome": "Gliceridi semisintetici solidi",
+        "presenza_in": "Tutte le formulazioni in supposte",
+        "avvertenza": "Nessuna avvertenza specifica riportata nel testo [cite: 5233, 5234, 5235, 5236]"
+      }
+    ]
+  },
+  "sezioni_testuali": [
+    {
+      "categoria": "Gravidanza e Allattamento",
+      "testo": "Nonostante studi clinici non abbiano evidenziato particolari controindicazioni né effetti indesiderati, si consiglia di somministrare il prodotto solo in casi di effettiva necessità e sotto il diretto controllo del medico. [cite: 5185]"
+    },
+    {
+      "categoria": "Posologia Bambini",
+      "testo": "È indispensabile rispettare la posologia in funzione del peso corporeo. Esempi: Bambini 6-7 kg (3-6 mesi) 1 supposta 125mg ogni 6 ore (max 4/die); 7-10 kg (6-18 mesi) 1 supposta 125mg ogni 4-6 ore (max 5/die); [cite_start]11-12 kg (18-24 mesi) 1 supposta 125mg ogni 4 ore (max 6/die) o 1 supposta 250mg ogni 8 ore (max 3/die). [cite: 5188, 5192, 5193, 5194, 5196]"
+    },
+    {
+      "categoria": "Posologia Adulti (1000 mg)",
+      "testo": "Ragazzi >50 kg e Adulti: 1 supposta alla volta, da ripetere se necessario dopo 6 ore, senza superare le 4 somministrazioni al giorno. [cite_start]Posologia massima rettale 4000 mg/giorno. [cite: 5190, 5205, 5206]"
+    },
+    {
+      "categoria": "Sovradosaggio",
+      "testo": "L'intossicazione acuta si manifesta con anoressia, nausea, vomito entro le prime 24 ore. Può evolvere in citolisi epatica, necrosi massiva, insufficienza epatocellulare, coma e morte. [cite_start]Antidoto: N-acetilcisteina. [cite: 5208, 5209, 5210, 5212]"
+    },
+    {
+      "categoria": "Interferenza Esami",
+      "testo": "La somministrazione può interferire con la determinazione dell'uricemia (metodo acido fosfotungstico) e della glicemia (metodo glucosio-ossidasi-perossidasi). [cite: 5179, 5180]"
+    }
+  ]
+}

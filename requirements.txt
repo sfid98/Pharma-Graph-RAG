@@ -1,0 +1,7 @@
+streamlit
+neo4j
+langchain
+langchain-community
+langchain-groq
+langchain-google-genai
+python-dotenv

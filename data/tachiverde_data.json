@@ -1,0 +1,160 @@
+{
+  "farmaco": {
+    "nome": "Tachiverde",
+    "forme_farmaceutiche": [
+      "Compresse 1000 mg",
+      "Compresse effervescenti 1000 mg"
+    ],
+    "principio_attivo": "Paracetamolo",
+    "gruppo_terapeutico": "Analgesici ed antipiretici"
+  },
+  "grafo_strutturato": {
+    "indicazioni_terapeutiche": [
+      "Febbre",
+      "Dolore",
+      "Mal di testa",
+      "Dolori articolari",
+      "Torcicollo",
+      "Mal di schiena",
+      "Mal di denti",
+      "Dolori mestruali",
+      "Dolori da piccoli interventi chirurgici"
+    ],
+    "controindicazioni_assolute": [
+      {
+        "condizione": "Allergia al paracetamolo",
+        "motivo": "Ipersensibilità al principio attivo o componenti"
+      },
+      {
+        "condizione": "Età inferiore ai 15 anni",
+        "motivo": "Non indicato per bambini e adolescenti sotto questa soglia"
+      }
+    ],
+    "avvertenze_precauzioni": [
+      "Uso cronico di alcol",
+      "Anoressia",
+      "Bulimia",
+      "Cachessia",
+      "Malnutrizione cronica",
+      "Disidratazione",
+      "Ipovolemia",
+      "Deficit di glucosio-6-fosfato deidrogenasi (Favismo)",
+      "Anemia emolitica",
+      "Insufficienza epatica (Sindrome di Gilbert, Epatite acuta)",
+      "Insufficienza renale"
+    ],
+    "interazioni_farmacologiche": [
+      {
+        "sostanza": "Alcol",
+        "effetto": "Rischio di intossicazione",
+        "gravità": "ALTA"
+      },
+      {
+        "sostanza": "Anticolinergici",
+        "effetto": "Ritarda l'effetto del Tachiverde (rallenta svuotamento stomaco)",
+        "gravità": "LIEVE"
+      },
+      {
+        "sostanza": "Oppioidi",
+        "effetto": "Ritarda l'effetto del Tachiverde",
+        "gravità": "LIEVE"
+      },
+      {
+        "sostanza": "Procinetici",
+        "effetto": "Accelera l'effetto del Tachiverde",
+        "gravità": "NEUTRA"
+      },
+      {
+        "sostanza": "Colestiramina",
+        "effetto": "Riduce l'effetto del paracetamolo",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Cloramfenicolo",
+        "effetto": "Aumenta rischio effetti indesiderati",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Rifampicina",
+        "effetto": "Interazione antibiotica generica",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Cimetidina",
+        "effetto": "Interazione trattamento ulcera",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Antiepilettici (Glutetimide, Fenobarbital, Carbamazepina)",
+        "effetto": "Interazione farmaci epilessia",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Zidovudina",
+        "effetto": "Interazione trattamento HIV",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Anticoagulanti orali",
+        "effetto": "Alterazione fluidità sangue",
+        "note": "Richiede stretto controllo medico per dosi > 4g/die per > 4 giorni",
+        "gravità": "ALTA"
+      },
+      {
+        "sostanza": "Flucloxacillina",
+        "effetto": "Rischio acidosi metabolica con gap anionico elevato",
+        "note": "Richiede trattamento urgente",
+        "gravità": "ALTA"
+      }
+    ],
+    "effetti_indesiderati": [
+      "Reazioni allergiche",
+      "Eruzioni cutanee (Eritema, Orticaria)",
+      "Angioedema",
+      "Shock anafilattico",
+      "Trombocitopenia",
+      "Leucopenia",
+      "Anemia",
+      "Vertigini",
+      "Disturbi gastrointestinali",
+      "Epatite",
+      "Sindrome di Stevens Johnson",
+      "Insufficienza renale acuta"
+    ],
+    "eccipienti_rilevanti": [
+      {
+        "nome": "Sodio",
+        "presenza_in": "Compresse effervescenti",
+        "quantità": "499 mg per compressa",
+        "avvertenza": "Attenzione diete iposodiche"
+      },
+      {
+        "nome": "Sorbitolo",
+        "presenza_in": "Compresse effervescenti",
+        "avvertenza": "Fonte di fruttosio, attenzione intolleranze"
+      }
+    ]
+  },
+  "sezioni_testuali": [
+    {
+      "categoria": "Gravidanza e Allattamento",
+      "testo": "Se necessario, Tachiverde può essere usato in gravidanza. È opportuno usare la dose più bassa possibile che riduce il dolore e/o la febbre e assumerlo per il più breve tempo possibile. Questo medicinale può essere assunto durante l'allattamento in caso di effettiva necessità e sotto il controllo del medico."
+    },
+    {
+      "categoria": "Posologia Adulti",
+      "testo": "La dose raccomandata per Adulti e adolescenti oltre i 15 anni è 1 compressa o 1 compressa effervescente, fino a un massimo di 3 volte al giorno. L'intervallo tra le diverse somministrazioni non deve essere inferiore alle quattro ore."
+    },
+    {
+      "categoria": "Posologia Insufficienza Renale",
+      "testo": "Se il medico ha diagnosticato una grave insufficienza renale, l'intervallo tra le somministrazioni deve essere di almeno 8 ore."
+    },
+    {
+      "categoria": "Sovradosaggio",
+      "testo": "In caso di assunzione accidentale di dosi molto elevate di paracetamolo, i sintomi comprendono anoressia, nausea e vomito, alterazioni dei valori del sangue. L'antidoto specifico è l'N-acetilcisteina."
+    },
+    {
+      "categoria": "Guida veicoli",
+      "testo": "Tachiverde non altera la capacità di guidare veicoli o di usare macchinari."
+    }
+  ]
+}

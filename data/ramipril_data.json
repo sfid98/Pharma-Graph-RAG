@@ -1,0 +1,171 @@
+{
+  "farmaco": {
+    "nome": "Ramipril ratiopharm",
+    "forme_farmaceutiche": [
+      "Compresse 2,5 mg",
+      "Compresse 5 mg"
+    ],
+    "principio_attivo": "Ramipril",
+    "altri_principi": [],
+    "gruppo_terapeutico": "ACE inibitori (Inibitori dell'Enzima di Conversione dell'Angiotensina)"
+  },
+  "grafo_strutturato": {
+    "indicazioni_terapeutiche": [
+      "Trattamento dell'ipertensione (pressione alta)",
+      "Riduzione del rischio di attacco cardiaco o ictus",
+      "Riduzione del rischio o ritardo del peggioramento di problemi renali (con o senza diabete)",
+      "Trattamento dell'insufficienza cardiaca (cuore che non pompa sangue a sufficienza)",
+      "Trattamento dopo attacco cardiaco (infarto del miocardio) con insufficienza cardiaca"
+    ],
+    "controindicazioni_assolute": [
+      {
+        "condizione": "Allergia al ramipril, ad altri ACE inibitori o agli eccipienti",
+        "motivo": "Ipersensibilità"
+      },
+      {
+        "condizione": "Storia di angioedema (grave reazione allergica)",
+        "motivo": "Rischio di recidiva potenzialmente fatale"
+      },
+      {
+        "condizione": "Dialisi o altri tipi di filtrazione del sangue",
+        "motivo": "Possibile incompatibilità con membrane ad alto flusso (rischio reazioni)"
+      },
+      {
+        "condizione": "Stenosi dell'arteria renale (insufficiente apporto sangue al rene)",
+        "motivo": "Problemi renali gravi"
+      },
+      {
+        "condizione": "Gravidanza (Ultimi 6 mesi)",
+        "motivo": "Grave danno al bambino"
+      },
+      {
+        "condizione": "Pressione sanguigna eccessivamente bassa o instabile",
+        "motivo": "Rischio ipotensione grave"
+      },
+      {
+        "condizione": "Diabete o insufficienza renale in trattamento con Aliskiren",
+        "motivo": "Aumento rischio effetti avversi renali/cardiovascolari"
+      },
+      {
+        "condizione": "Assunzione concomitante di Sacubitril/Valsartan",
+        "motivo": "Aumento rischio di angioedema"
+      }
+    ],
+    "avvertenze_precauzioni": [
+      "Problemi di cuore, fegato o reni",
+      "Perdita di sali o fluidi (vomito, diarrea, sudorazione, diuretici)",
+      "Trattamento di desensibilizzazione (es. per punture api/vespe)",
+      "Anestesia (per interventi chirurgici o denti)",
+      "Elevati livelli di potassio nel sangue",
+      "Patologie del collagene vascolare (sclerodermia, lupus eritematoso sistemico)",
+      "Etnia nera (maggior rischio angioedema e minore efficacia ipotensiva)"
+    ],
+    "interazioni_farmacologiche": [
+      {
+        "sostanza": "Sacubitril/Valsartan",
+        "effetto": "Aumento rischio angioedema",
+        "gravità": "ALTA (Controindicato)"
+      },
+      {
+        "sostanza": "Farmaci risparmiatori di potassio (Spironolattone, Triamterene, Amiloride), Integratori di potassio, Eparina, Ciclosporina, Trimetoprim/Cotrimoxazolo",
+        "effetto": "Iperkaliemia (aumento potassio nel sangue)",
+        "gravità": "ALTA"
+      },
+      {
+        "sostanza": "Farmaci anti-rigetto (Sirolimus, Everolimus - inibitori mTOR)",
+        "effetto": "Aumento rischio angioedema",
+        "gravità": "ALTA"
+      },
+      {
+        "sostanza": "Racecadotril",
+        "effetto": "Aumento rischio angioedema",
+        "gravità": "ALTA"
+      },
+      {
+        "sostanza": "Vildagliptin",
+        "effetto": "Aumento rischio angioedema",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "FANS (Ibuprofene, Aspirina, Indometacina)",
+        "effetto": "Riduzione effetto antipertensivo e rischio danno renale",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Litio",
+        "effetto": "Aumento tossicità del litio",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Antidiabetici (Insulina, Ipoglicemizzanti orali)",
+        "effetto": "Rischio ipoglicemia",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Alcol",
+        "effetto": "Potenziamento effetto ipotensivo e vertigini",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Vasopressori (Efedrina, Noradrenalina, Adrenalina)",
+        "effetto": "Riduzione effetto ramipril",
+        "gravità": "MODERATA"
+      }
+    ],
+    "effetti_indesiderati": [
+      "Mal di testa, stanchezza",
+      "Vertigini (specie inizio terapia)",
+      "Ipotensione (pressione bassa), ipotensione ortostatica",
+      "Tosse secca stizzosa",
+      "Sinusite, bronchite, fiato corto",
+      "Dolori addominali, diarrea, indigestione, nausea",
+      "Eruzioni cutanee (rash)",
+      "Dolore al petto",
+      "Crampi muscolari, dolori muscolari (mialgia)",
+      "Aumento livelli di potassio nel sangue",
+      "Angioedema (gonfiore volto, labbra, gola - Richiede intervento urgente)",
+      "Alterazioni funzionalità renale o epatica",
+      "Agranulocitosi, pancitopenia (riduzione cellule sangue - raro)",
+      "Reazioni cutanee gravi (Stevens-Johnson - raro)",
+      "Fotosensibilizzazione (molto raro)"
+    ],
+    "eccipienti_rilevanti": [
+      {
+        "nome": "Lattosio monoidrato",
+        "presenza_in": "Compresse 2,5 mg e 5 mg",
+        "avvertenza": "Attenzione in caso di intolleranza ad alcuni zuccheri"
+      },
+      {
+        "nome": "Sodio",
+        "presenza_in": "Compresse 2,5 mg e 5 mg",
+        "avvertenza": "Contiene meno di 1 mmol (23 mg) per dose, essenzialmente 'senza sodio'"
+      }
+    ]
+  },
+  "sezioni_testuali": [
+    {
+      "categoria": "Gravidanza",
+      "testo": "Non raccomandato nei primi 3 mesi. Assolutamente controindicato (non deve essere preso) dopo la 13a settimana (secondo e terzo trimestre) perché può causare gravi danni al bambino (ritardo crescita, danni renali, morte)."
+    },
+    {
+      "categoria": "Allattamento",
+      "testo": "Non prendere Ramipril ratiopharm durante l'allattamento."
+    },
+    {
+      "categoria": "Guida veicoli",
+      "testo": "Può causare vertigini o stordimento, specialmente all'inizio del trattamento o dopo un aumento della dose. Se si verificano, non guidare né usare macchinari."
+    },
+    {
+      "categoria": "Posologia Ipertensione",
+      "testo": "Dose iniziale abituale: 1,25 mg o 2,5 mg una volta al giorno. Dose massima: 10 mg al giorno."
+    },
+    {
+      "categoria": "Sovradosaggio",
+      "testo": "I sintomi possono includere eccessiva ipotensione, shock, rallentamento battito cardiaco, alterazioni elettroliti, insufficienza renale. Contattare medico o ospedale."
+    },
+    {
+      "categoria": "Dimenticanza dose",
+      "testo": "Non prendere una dose doppia per compensare. Assumere la dose successiva all'orario stabilito."
+    }
+  ]
+}

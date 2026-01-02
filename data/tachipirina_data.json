@@ -1,0 +1,199 @@
+{
+  "farmaco": {
+    "nome": "Tachipirina",
+    "forme_farmaceutiche": [
+      "Compresse 1000 mg",
+      "Compresse effervescenti 1000 mg",
+      "Granulato per soluzione orale 1000 mg",
+      "Granulato effervescente 500 mg",
+      "Granulato effervescente 125 mg",
+      "Compresse 500 mg",
+      "Supposte Neonati 62,5 mg",
+      "Supposte Prima Infanzia 125 mg",
+      "Supposte Bambini 250 mg",
+      "Supposte Bambini 500 mg",
+      "Supposte Adulti 1000 mg",
+      "Gocce orali 100 mg/ml",
+      "Sciroppo 120 mg/5 ml",
+      "Sospensione orale 120 mg/5 ml",
+      "Soluzione per infusione 10 mg/ml"
+    ],
+    "principio_attivo": "Paracetamolo",
+    "altri_principi": [],
+    "gruppo_terapeutico": "Analgesici, antipiretici"
+  },
+  "grafo_strutturato": {
+    "indicazioni_terapeutiche": [
+      "Trattamento sintomatico degli stati febbrili",
+      "Influenza",
+      "Malattie esantematiche",
+      "Malattie acute del tratto respiratorio",
+      "Dolori di ogni genere e natura",
+      "Mal di testa",
+      "Dolori articolari",
+      "Torcicollo",
+      "Mal di schiena",
+      "Mal di denti",
+      "Nevralgie",
+      "Dolori muscolari",
+      "Dolori mestruali",
+      "Dolori post-operatori (piccoli interventi chirurgici)"
+    ],
+    "controindicazioni_assolute": [
+      {
+        "condizione": "Allergia al paracetamolo o agli eccipienti",
+        "motivo": "Ipersensibilità"
+      },
+      {
+        "condizione": "Grave anemia emolitica",
+        "motivo": "Distruzione dei globuli rossi"
+      },
+      {
+        "condizione": "Grave malattia del fegato (insufficienza epatocellulare)",
+        "motivo": "Epatotossicità"
+      },
+      {
+        "condizione": "Età inferiore ai 15 anni (solo per formulazioni 1000 mg)",
+        "motivo": "Dosaggio non adatto"
+      },
+      {
+        "condizione": "Peso inferiore ai 7 kg, 11 kg, 21 kg, 41 kg (a seconda della forma farmaceutica)",
+        "motivo": "Dosaggio specifico per peso corporeo"
+      },
+      {
+        "condizione": "Fenilchetonuria",
+        "motivo": "Presenza di aspartame (fonte di fenilalanina) in alcune formulazioni"
+      }
+    ],
+    "avvertenze_precauzioni": [
+      "Carenza di glucosio-6-fosfato deidrogenasi (Favismo)",
+      "Insufficienza renale (lieve/moderata/grave)",
+      "Insufficienza epatica (lieve/moderata, Sindrome di Gilbert, epatite acuta)",
+      "Alcolismo cronico o uso eccessivo di alcol",
+      "Anoressia, bulimia o cachessia",
+      "Malnutrizione cronica",
+      "Disidratazione o ipovolemia",
+      "Uso concomitante di farmaci che alterano la funzionalità epatica"
+    ],
+    "interazioni_farmacologiche": [
+      {
+        "sostanza": "Alcol",
+        "effetto": "Rischio di intossicazione",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Farmaci che rallentano svuotamento gastrico (es. anticolinergici, oppioidi)",
+        "effetto": "Ritardano l'effetto di Tachipirina",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Farmaci che accelerano svuotamento gastrico (es. procinetici)",
+        "effetto": "Accelerano l'effetto di Tachipirina",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Colestiramina",
+        "effetto": "Riduce l'effetto del paracetamolo",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Cloramfenicolo",
+        "effetto": "Aumento rischio effetti indesiderati",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Anticoagulanti (es. Warfarin)",
+        "effetto": "Potenziamento effetto anticoagulante (a dosi elevate >4g/die per >4gg)",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Rifampicina / Cimetidina / Antiepilettici (Glutetimide, Fenobarbital, Carbamazepina)",
+        "effetto": "Alterazione funzionalità epatica / Induzione enzimatica",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Zidovudina",
+        "effetto": "Interazione farmacologica",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Flucloxacillina",
+        "effetto": "Rischio acidosi metabolica con gap anionico elevato",
+        "gravità": "ALTA"
+      }
+    ],
+    "effetti_indesiderati": [
+      "Reazioni allergiche (Orticaria, Eritema, Angioedema, Shock anafilattico)",
+      "Trombocitopenia (riduzione piastrine)",
+      "Leucopenia / Agranulocitosi (riduzione globuli bianchi)",
+      "Anemia (riduzione emoglobina)",
+      "Vertigini",
+      "Disturbi gastrointestinali",
+      "Funzionalità epatica anomala / Epatite",
+      "Reazioni cutanee gravi (Sindrome di Stevens-Johnson, Necrolisi epidermica tossica)",
+      "Insufficienza renale acuta",
+      "Nefrite interstiziale",
+      "Ematuria (sangue nelle urine)",
+      "Anuria (cessazione urine)"
+    ],
+    "eccipienti_rilevanti": [
+      {
+        "nome": "Sodio",
+        "presenza_in": "Compresse effervescenti, Granulato",
+        "avvertenza": "Attenzione pazienti ipertesi o dieta iposodica",
+        "quantità": "Alto contenuto (es. 499 mg nelle effervescenti 1000mg)"
+      },
+      {
+        "nome": "Sorbitolo",
+        "presenza_in": "Compresse effervescenti, Granulato, Sciroppo, Gocce",
+        "avvertenza": "Fonte di fruttosio, controindicato in intolleranza ereditaria al fruttosio"
+      },
+      {
+        "nome": "Aspartame",
+        "presenza_in": "Granulato effervescente (125mg, 500mg)",
+        "avvertenza": "Fonte di fenilalanina, dannoso per fenilchetonuria"
+      },
+      {
+        "nome": "Saccarosio",
+        "presenza_in": "Sciroppo, Sospensione",
+        "avvertenza": "Attenzione pazienti diabetici"
+      },
+      {
+        "nome": "Metile paraidrossibenzoato",
+        "presenza_in": "Sciroppo, Sospensione",
+        "avvertenza": "Può causare reazioni allergiche (anche ritardate)"
+      },
+      {
+        "nome": "Glicole propilenico",
+        "presenza_in": "Gocce",
+        "avvertenza": "Può causare sintomi simili a quelli causati dall'alcool"
+      }
+    ]
+  },
+  "sezioni_testuali": [
+    {
+      "categoria": "Gravidanza",
+      "testo": "Se necessario, Tachipirina può essere usata in gravidanza. È opportuno usare la dose più bassa possibile che riduce il dolore e/o la febbre e assumerla per il più breve tempo possibile. [cite_start]Contatti il medico se il dolore e/o la febbre non diminuiscono. [cite: 3297, 2769]"
+    },
+    {
+      "categoria": "Allattamento",
+      "testo": "Questo medicinale può essere assunto durante l'allattamento solo in caso di effettiva necessità e sotto il controllo del medico. [cite: 3300, 2771]"
+    },
+    {
+      "categoria": "Sovradosaggio",
+      "testo": "In caso di assunzione accidentale di dosi molto elevate, i sintomi entro le prime 12-48 ore comprendono: anoressia, nausea, vomito, pallore e dolore addominale, alterazioni dei valori di laboratorio (aumento bilirubina, transaminasi, riduzione protrombina). [cite_start]Danni epatici possono portare al coma e alla morte. [cite: 2610, 3150]"
+    },
+    {
+      "categoria": "Interferenze Esami",
+      "testo": "La somministrazione di paracetamolo può interferire con la determinazione della uricemia (metodo dell'acido fosfotungstico) e della glicemia (metodo della glucosio-ossidasi-perossidasi). [cite: 3294, 2766]"
+    },
+    {
+      "categoria": "Posologia Adulti (1000 mg)",
+      "testo": "La dose raccomandata è 1 compressa o bustina, fino a 3 volte al giorno. [cite_start]L'intervallo tra le diverse somministrazioni non deve essere inferiore alle quattro ore. [cite: 2605, 2606]"
+    },
+    {
+      "categoria": "Acidosi Metabolica",
+      "testo": "È stata segnalata acidosi metabolica con gap anionico elevato in pazienti che assumono flucloxacillina in concomitanza con paracetamolo, specialmente in presenza di fattori di rischio come insufficienza renale grave, sepsi, malnutrizione e alcolismo cronico. [cite: 2659, 2911]"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "farmaco": {
+    "nome": "Levosulpiride EG [cite: 434, 609]",
+    "forme_farmaceutiche": [
+      "Gocce orali, soluzione 25 mg/ml [cite: 434]",
+      "Compresse 25 mg [cite: 609]"
+    ],
+    "principio_attivo": "Levosulpiride [cite: 458, 633]",
+    "altri_principi": [],
+    "gruppo_terapeutico": "Psicolettici, antipsicotici, benzamidi [cite: 458, 633]"
+  },
+  "grafo_strutturato": {
+    "indicazioni_terapeutiche": [
+      "Sindrome dispeptica (anoressia, meteorismo, senso di tensione gastrica, cefalea post-prandiale, pirosi, eruttazioni, diarrea, stipsi) [cite: 461, 636]",
+      "Vomito e nausea indotti da farmaci antitumorali [cite: 462, 637]",
+      "Sindrome di Mènière (vertigini, tinnito, perdita dell'udito, nausea) [cite: 463, 638]"
+    ],
+    "controindicazioni_assolute": [
+      {
+        "condizione": "Allergia alla levosulpiride o agli eccipienti",
+        "motivo": "Ipersensibilità [cite: 466, 641]"
+      },
+      {
+        "condizione": "Feocromocitoma",
+        "motivo": "Tumore della ghiandola surrenale [cite: 467, 642]"
+      },
+      {
+        "condizione": "Epilessia",
+        "motivo": "Rischio convulsioni [cite: 468, 643]"
+      },
+      {
+        "condizione": "Disturbi psichiatrici (stati maniacali, psicosi maniaco-depressive)",
+        "motivo": "Condizione psichiatrica incompatibile [cite: 473, 644]"
+      },
+      {
+        "condizione": "Mastopatia maligna",
+        "motivo": "Tumore al seno [cite: 474, 649]"
+      },
+      {
+        "condizione": "Gravidanza e allattamento",
+        "motivo": "Rischio per il feto e il neonato [cite: 475, 650]"
+      }
+    ],
+    "avvertenze_precauzioni": [
+      "Emorragia gastrointestinale, ostruzioni meccaniche o perforazioni [cite: 479, 654]",
+      "Uso concomitante di altri psicofarmaci/neurolettici (rischio Sindrome Neurolettica Maligna) [cite: 480, 481, 655, 656]",
+      "Demenza negli anziani (aumento rischio eventi cerebrovascolari e morte) [cite: 484, 485, 660, 661]",
+      "Fattori di rischio per ictus [cite: 487, 664]",
+      "Malattie cardiovascolari o familiarità per prolungamento del QT [cite: 488, 665]",
+      "Storia di trombi/coaguli del sangue [cite: 491, 667]"
+    ],
+    "interazioni_farmacologiche": [
+      {
+        "sostanza": "Psicofarmaci (Neurolettici)",
+        "effetto": "Rischio Sindrome Neurolettica Maligna (SNM)",
+        "gravità": "ALTA [cite: 481, 656]"
+      },
+      {
+        "sostanza": "Farmaci che prolungano il QT",
+        "effetto": "Aumento rischio aritmie cardiache",
+        "gravità": "ALTA [cite: 496, 673]"
+      },
+      {
+        "sostanza": "Farmaci che alterano gli elettroliti",
+        "effetto": "Squilibrio elettrolitico",
+        "gravità": "MODERATA [cite: 498, 674]"
+      },
+      {
+        "sostanza": "Alcol",
+        "effetto": "Interazione non specificata, da evitare",
+        "gravità": "MODERATA [cite: 503, 676]"
+      },
+      {
+        "sostanza": "Anticolinergici, narcotici, analgesici",
+        "effetto": "Riduzione degli effetti di Levosulpiride EG",
+        "gravità": "MODERATA [cite: 489, 666]"
+      }
+    ],
+    "effetti_indesiderati": [
+      "Iperprolactinemia (aumento prolattina) [cite: 552, 721]",
+      "Prolungamento dell'intervallo QT [cite: 556, 724]",
+      "Aritmie ventricolari (torsioni di punta, fibrillazione) [cite: 556, 724]",
+      "Arresto cardiaco [cite: 556, 724]",
+      "Sonnolenza, torpore [cite: 515, 558, 727]",
+      "Parkinsonismo (tremore, rigidità, difficoltà movimenti) [cite: 558, 727]",
+      "Discinesie (movimenti involontari) [cite: 515, 562, 727]",
+      "Sindrome Maligna da Neurolettici [cite: 562, 727]",
+      "Amenorrea, Ginecomastia, Galattorrea, Alterazioni libido [cite: 566, 730]",
+      "Trombi venosi (tromboembolismo) [cite: 567, 731]",
+      "Morte improvvisa (casi molto rari) [cite: 563, 728]"
+    ],
+    "eccipienti_rilevanti": [
+      {
+        "nome": "Metile p-idrossibenzoato e Propile p-idrossibenzoato",
+        "presenza_in": "Gocce orali",
+        "avvertenza": "Possono causare reazioni allergiche (anche ritardate) [cite: 518, 584]"
+      },
+      {
+        "nome": "Lattosio monoidrato",
+        "presenza_in": "Compresse",
+        "avvertenza": "Controindicato in intolleranza ad alcuni zuccheri [cite: 693, 750]"
+      },
+      {
+        "nome": "Sodio",
+        "presenza_in": "Gocce e Compresse",
+        "avvertenza": "Meno di 1 mmol (23 mg) per dose, essenzialmente 'senza sodio' [cite: 519, 695]"
+      }
+    ]
+  },
+  "sezioni_testuali": [
+    {
+      "categoria": "Gravidanza",
+      "testo": "Non usare in gravidanza. [cite_start]Se assunto negli ultimi 3 mesi, il neonato può manifestare sintomi extrapiramidali e da astinenza (tremore, rigidità, sonnolenza, problemi respiratori, difficoltà suzione). [cite: 507, 508, 683, 684]"
+    },
+    {
+      "categoria": "Allattamento",
+      "testo": "Non usare Levosulpiride EG durante l'allattamento. [cite: 511, 687]"
+    },
+    {
+      "categoria": "Guida veicoli",
+      "testo": "Può influire sulla capacità di guidare. Dosi elevate possono causare sonnolenza, torpore e discinesie. [cite_start]Se presenti questi sintomi, non guidare. [cite: 514, 515, 689, 690]"
+    },
+    {
+      "categoria": "Posologia Adulti",
+      "testo": "Gocce: 15 gocce 3 volte al giorno prima dei pasti. [cite_start]Compresse: 1 compressa 3 volte al giorno prima dei pasti. [cite: 524, 701]"
+    },
+    {
+      "categoria": "Posologia Anziani",
+      "testo": "Il medico stabilirà la posologia valutando una eventuale riduzione dei dosaggi. [cite: 526, 703]"
+    },
+    {
+      "categoria": "Sovradosaggio",
+      "testo": "Può causare disturbi del movimento e del sonno. [cite_start]Si risolvono con l'interruzione della terapia o riduzione della dose. [cite: 545, 711]"
+    }
+  ]
+}

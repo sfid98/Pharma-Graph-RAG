@@ -1,0 +1,200 @@
+{
+  "farmaco": {
+    "nome": "Aspirina",
+    "forme_farmaceutiche": [
+      "Granulato 500 mg",
+      "Compresse 325 mg",
+      "Compresse masticabili (Rapida) 500 mg",
+      "Compresse effervescenti con Vitamina C 400 mg",
+      "Granulato effervescente con Vitamina C 400 mg",
+      "Compresse 500 mg"
+    ],
+    "principio_attivo": "Acido Acetilsalicilico",
+    "altri_principi": ["Acido Ascorbico (Vitamina C) nelle varianti specifiche"],
+    "gruppo_terapeutico": "Analgesici, antipiretici, antinfiammatori (FANS)"
+  },
+  "grafo_strutturato": {
+    "indicazioni_terapeutiche": [
+      "Febbre",
+      "Sindromi influenzali",
+      "Raffreddore",
+      "Mal di testa",
+      "Mal di denti",
+      "Nevralgie",
+      "Dolori mestruali",
+      "Dolori reumatici",
+      "Dolori muscolari"
+    ],
+    "controindicazioni_assolute": [
+      {
+        "condizione": "Allergia ai salicilati o FANS",
+        "motivo": "Ipersensibilità al principio attivo"
+      },
+      {
+        "condizione": "Ulcera gastroduodenale",
+        "motivo": "Rischio perforazione e sanguinamento"
+      },
+      {
+        "condizione": "Diatesi emorragica",
+        "motivo": "Aumento rischio sanguinamento (effetto antiaggregante)"
+      },
+      {
+        "condizione": "Insufficienza renale grave",
+        "motivo": "Tossicità renale"
+      },
+      {
+        "condizione": "Insufficienza epatica grave",
+        "motivo": "Metabolismo compromesso"
+      },
+      {
+        "condizione": "Insufficienza cardiaca grave",
+        "motivo": "Ritenzione idrica e peggioramento emodinamico"
+      },
+      {
+        "condizione": "Deficit di glucosio-6-fosfato deidrogenasi (Favismo)",
+        "motivo": "Rischio anemia emolitica"
+      },
+      {
+        "condizione": "Trattamento con Metotrexato (>15mg/settimana)",
+        "motivo": "Aumento tossicità ematologica del metotrexato"
+      },
+      {
+        "condizione": "Trattamento con Warfarin",
+        "motivo": "Alto rischio emorragico"
+      },
+      {
+        "condizione": "Gravidanza (Ultimo trimestre)",
+        "motivo": "Ritardo parto, tossicità cardiopolmonare fetale"
+      },
+      {
+        "condizione": "Allattamento",
+        "motivo": "Passaggio nel latte materno"
+      },
+      {
+        "condizione": "Età inferiore ai 16 anni",
+        "motivo": "Rischio Sindrome di Reye"
+      }
+    ],
+    "avvertenze_precauzioni": [
+      "Asma",
+      "Gotta (Iperuricemia)",
+      "Interventi chirurgici (sospendere per rischio sanguinamento)",
+      "Anziani (> 70 anni)",
+      "Dieta iposodica (per le forme effervescenti)",
+      "Nefrolitiasi o calcoli renali (per forme con Vitamina C)"
+    ],
+    "interazioni_farmacologiche": [
+      {
+        "sostanza": "Metotrexato",
+        "effetto": "Aumento tossicità del metotrexato",
+        "gravità": "ALTA"
+      },
+      {
+        "sostanza": "Warfarin / Anticoagulanti",
+        "effetto": "Aumento rischio emorragia",
+        "gravità": "ALTA"
+      },
+      {
+        "sostanza": "Alcol",
+        "effetto": "Aumento rischio sanguinamento gastrointestinale",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Altri FANS",
+        "effetto": "Aumento effetti collaterali gastrointestinali",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "SSRI (Antidepressivi)",
+        "effetto": "Aumento rischio sanguinamento",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Antidiabetici (Insulina/Ipoglicemizzanti)",
+        "effetto": "Potenziamento effetto ipoglicemizzante",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Corticosteroidi",
+        "effetto": "Rischio ulcera e riduzione livelli salicilati",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Digossina",
+        "effetto": "Aumento concentrazione digossina nel sangue",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Acido Valproico",
+        "effetto": "Aumento tossicità acido valproico",
+        "gravità": "MODERATA"
+      },
+      {
+        "sostanza": "Diuretici / ACE inibitori",
+        "effetto": "Riduzione efficacia antipertensiva",
+        "gravità": "MODERATA"
+      }
+    ],
+    "effetti_indesiderati": [
+      "Sanguinamento gastrointestinale",
+      "Ulcera gastrica",
+      "Ematemesi (vomito sangue)",
+      "Melena (feci nere)",
+      "Reazioni allergiche (Orticaria, Angioedema, Shock anafilattico)",
+      "Asma indotta da aspirina",
+      "Tinnito (ronzio auricolare - segno di sovradosaggio)",
+      "Sindrome di Reye (nei bambini)",
+      "Insufficienza renale",
+      "Epatotossicità"
+    ],
+    "eccipienti_rilevanti": [
+      {
+        "nome": "Sodio",
+        "presenza_in": "Compresse effervescenti e Granulato C",
+        "avvertenza": "Attenzione pazienti ipertesi o dieta iposodica",
+        "quantità": "Alto contenuto nelle effervescenti (es. 467-469 mg)"
+      },
+      {
+        "nome": "Aspartame",
+        "presenza_in": "Aspirina Rapida, Granulato",
+        "avvertenza": "Fonte di fenilalanina, dannoso per fenilchetonuria"
+      },
+      {
+        "nome": "Saccarosio",
+        "presenza_in": "Granulato effervescente con Vitamina C",
+        "avvertenza": "Attenzione pazienti diabetici"
+      },
+      {
+        "nome": "Giallo Tramonto (E110)",
+        "presenza_in": "Aspirina Rapida, Granulato C",
+        "avvertenza": "Può causare reazioni allergiche"
+      }
+    ]
+  },
+  "sezioni_testuali": [
+    {
+      "categoria": "Sindrome di Reye",
+      "testo": "La Sindrome di Reye è una malattia rara ma potenzialmente fatale che colpisce quasi esclusivamente i bambini. Se sintomi come vomito persistente, disorientamento o sonnolenza insorgono dopo un'influenza o varicella in cui è stata usata Aspirina, contattare immediatamente il medico. Per questo motivo il farmaco è controindicato sotto i 16 anni."
+    },
+    {
+      "categoria": "Gravidanza",
+      "testo": "Non prendere Aspirina nell'ultimo trimestre di gravidanza. Nel primo e secondo trimestre, assumere solo dopo aver consultato il medico. L'uso può prolungare il travaglio e causare sanguinamenti nella madre e nel neonato."
+    },
+    {
+      "categoria": "Interventi Chirurgici",
+      "testo": "Poiché l'acido acetilsalicilico fluidifica il sangue, informare il medico o il dentista prima di qualsiasi intervento chirurgico, anche piccolo (estrazione dente), per il rischio di emorragie."
+    },
+    {
+      "categoria": "Posologia Adulti",
+      "testo": "La dose raccomandata per gli adulti è generalmente di 1 o 2 compresse/bustine, ripetibile ogni 4-8 ore se necessario, fino a un massimo di 2-3 volte al giorno. Assumere sempre a stomaco pieno e con abbondante acqua."
+    },
+    {
+      "categoria": "Sovradosaggio (Salicilismo)",
+      "testo": "Sintomi di intossicazione cronica o acuta includono capogiro, vertigini, tinnito (suono nell'orecchio), sordità, sudorazione, nausea, vomito, mal di testa e stato confusionale. In casi gravi: iperventilazione, febbre, acidosi metabolica, coma."
+    },
+    {
+      "categoria": "Variante Vitamina C",
+      "testo": "Le varianti con Vitamina C (Acido Ascorbico) contengono sodio e possono favorire la formazione di calcoli renali (nefrolitiasi) in soggetti predisposti o con insufficienza renale."
+    }
+  ]
+}
