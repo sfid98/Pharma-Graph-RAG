@@ -1,4 +1,4 @@
-# 🩺 PharmaGraph: Clinical Decision Support System (GraphRAG MVP)
+# 🩺 PharmaGraph: Clinical Decision Support System (GraphRAG Prototype)
 
 > **Progetto Didattico / Proof of Concept**
 >
